@@ -31,3 +31,11 @@ for i in range(n):
            tab = tab[indNum][1]
         
 print(str(nbAjout))
+#Sortie standard :
+#Debug telephone... 0412578440
+#Debug telephone... 0412199803
+#Debug telephone... 0468892011
+#Debug telephone... 112
+#Debug telephone... 15
+#28
+#Success
