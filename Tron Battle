@@ -1,0 +1,82 @@
+import sys
+from collections import deque
+
+WIDTH = 30
+HEIGHT = 20
+
+DIRS = {
+    "UP": (0, -1),
+    "DOWN": (0, 1),
+    "LEFT": (-1, 0),
+    "RIGHT": (1, 0),
+}
+
+grid = [[-1 for _ in range(HEIGHT)] for _ in range(WIDTH)]
+
+def in_bounds(x, y):
+    return 0 <= x < WIDTH and 0 <= y < HEIGHT
+
+#Si je vais en start_x, start_y, 
+#il me reste count espace pour survivre
+def flood_fill(start_x, start_y):
+    visited = [[False for _ in range(HEIGHT)] for _ in range(WIDTH)]
+    q = deque()
+    q.append((start_x, start_y))
+    visited[start_x][start_y] = True
+    count = 1
+
+    while q:
+        x, y = q.popleft()
+
+        for dx, dy in DIRS.values():
+            nx, ny = x + dx, y + dy
+            if in_bounds(nx, ny) and not visited[nx][ny] and grid[nx][ny] == -1:
+                visited[nx][ny] = True
+                q.append((nx, ny))
+                count += 1
+
+    return count
+
+while True:
+    n, p = map(int, input().split())
+    
+    my_x = my_y = None
+
+    for i in range(n):
+        x0, y0, x1, y1 = map(int, input().split())
+
+        # joueur mort → effacer sa trace
+        if x1 == -1:
+            for x in range(WIDTH):
+                for y in range(HEIGHT):
+                    if grid[x][y] == i:
+                        grid[x][y] = -1
+            continue
+
+        grid[x1][y1] = i
+
+        if i == p:
+            my_x, my_y = x1, y1
+
+    best_move = "UP"
+    best_score = -1
+    
+    #calcul du best move en fct de changement qui maximise l'espace dispo
+    for name, (dx, dy) in DIRS.items():
+        nx, ny = my_x + dx, my_y + dy
+
+        if not in_bounds(nx, ny):
+            continue
+        if grid[nx][ny] != -1:
+            continue
+
+        # simulation temporaire
+        grid[nx][ny] = p
+        score = flood_fill(nx, ny)
+        grid[nx][ny] = -1  # rollback
+
+        if score > best_score:
+            best_score = score
+            best_move = name
+
+    print(best_move)
