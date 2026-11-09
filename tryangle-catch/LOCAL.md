@@ -2,7 +2,7 @@
 
 Le referee officiel et les scripts de lancement sont dans ce workspace. Le premier
 lancement compile le referee et copie ses dépendances dans `vendor/TryAngle-Catch/target/`.
-Maven est fourni dans `.tools/`; Python 3 et Java 9+ doivent être présents sur la machine.
+Maven est installé dans `../.tools/` (partagé, voir `../common/setup-tools.sh`); Python 3 et Java 9+ doivent être présents sur la machine.
 Le lanceur ajoute l’ouverture de module requise par le Guice ancien du referee sur Java 17.
 
 ## Faire traiter l’exemple d’un tour

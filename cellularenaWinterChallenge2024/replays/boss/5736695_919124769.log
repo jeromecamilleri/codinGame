@@ -1,0 +1,147 @@
+status: done
+game 919124769
+options: seed=-3370888699224384500
+agents:
+  0 jejecam (me, agent_id -1)
+  1 BOSS 2 (agent_id 5736695)
+frame 0
+frame 1 agent 0
+  stdout: GROW 1 2 2 BASIC
+frame 2 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 2 2 6 BASIC N
+frame 3 agent 0
+  stdout: GROW 3 3 2 BASIC
+frame 4 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 4 3 6 BASIC N
+frame 5 agent 0
+  stdout: GROW 5 4 2 HARVESTER E
+frame 6 agent 1
+  summary: $0:
+      - consumed 1C, 1D for growth
+      - gained 1A from harvest
+      $1:
+      - consumed 1C, 1D for growth
+      - gained 1A from harvest
+  stdout: GROW 6 4 6 HARVESTER E
+frame 7 agent 0
+  stdout: GROW 8 5 2 BASIC
+frame 8 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      - gained 3A from absorption
+      $1:
+      - consumed 1A for growth
+      - gained 1A from harvest
+  stdout: GROW 7 4 5 BASIC N
+frame 9 agent 0
+  stdout: GROW 10 6 2 BASIC
+frame 10 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+      - gained 1A from harvest
+  stdout: GROW 9 5 5 BASIC N
+frame 11 agent 0
+  stdout: GROW 12 7 2 BASIC
+frame 12 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+      - gained 3A from absorption
+  stdout: GROW 11 5 6 BASIC N
+frame 13 agent 0
+  stdout: GROW 1 1 1 BASIC
+frame 14 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 7 4 7 BASIC N
+frame 15 agent 0
+  stdout: GROW 15 2 1 BASIC
+frame 16 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 6 3 5 BASIC N
+frame 17 agent 0
+  stdout: GROW 17 3 1 BASIC
+frame 18 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 16 3 7 BASIC N
+frame 19 agent 0
+  stdout: GROW 20 4 1 BASIC
+frame 20 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 4 2 5 BASIC N
+frame 21 agent 0
+  stdout: GROW 22 5 1 BASIC
+frame 22 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 2 1 5 BASIC N
+frame 23 agent 0
+  stdout: GROW 24 6 1 BASIC
+frame 24 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 11 6 5 BASIC N
+frame 25 agent 0
+  stdout: GROW 26 7 1 BASIC
+frame 26 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 25 7 5 BASIC N
+frame 27 agent 0
+  stdout: GROW 27 8 1 BASIC
+frame 28 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 2 1 7 BASIC N
+frame 29 agent 0
+  stdout: GROW 30 9 1 BASIC
+frame 30 agent 1
+  summary: $0:
+      - consumed 1A for growth
+      $1:
+      - consumed 1A for growth
+  stdout: GROW 19 2 7 BASIC N
+frame 31 agent 0
+  stdout: GROW 30 8 2 BASIC
+frame 32 agent 1
+  summary: ¤RED¤$0 cannot grow a BASIC, not enough proteins§RED§
+      $1:
+      - consumed 1A for growth
+      ¤GREEN¤
+      Game over: not enough proteins to continue evolving.§GREEN§
+  stdout: GROW 13 6 6 BASIC N
+result
+  scores: 0=16 1=17
+  ranking (agent indexes, winner first): 1 0
+  tooltips: frame 32: $1 wins!
+  metadata: absorbedProteins_A_0=3 absorbedProteins_A_1=3 absorbedProteins_B_0=0 absorbedProteins_B_1=0 absorbedProteins_C_0=0 absorbedProteins_C_1=0 absorbedProteins_D_0=0 absorbedProteins_D_1=0 cascadeChildrenDeaths_0=0 cascadeChildrenDeaths_1=0 deathTypes_basic_0=0 deathTypes_basic_1=0 deathTypes_harvester_0=0 deathTypes_harvester_1=0 deathTypes_root_0=0 deathTypes_root_1=0 deathTypes_sporer_0=0 deathTypes_sporer_1=0 deathTypes_tentacle_0=0 deathTypes_tentacle_1=0 deniedSpore=0 doubleDeniedSpores=0 executionTime_0=341 executionTime_1=263 gameLength=16 growthTypes_basic_0=14 growthTypes_basic_1=15 growthTypes_harvester_0=1 growthTypes_harvester_1=1 growthTypes_root_0=0 growthTypes_root_1=0 growthTypes_sporer_0=0 growthTypes_sporer_1=0 growthTypes_tentacle_0=0 growthTypes_tentacle_1=0 harvestedProteins_A_0=1 harvestedProteins_A_1=3 harvestedProteins_B_0=0 harvestedProteins_B_1=0 harvestedProteins_C_0=0 harvestedProteins_C_1=0 harvestedProteins_D_0=0 harvestedProteins_D_1=0 mutualKills=0 mutualSpawns=0 organismsAtGameEnd_0=1 organismsAtGameEnd_1=1 proteinThefts_0=0 proteinThefts_1=0 totalSporeDistance_0=0 totalSporeDistance_1=0 wallPoints_0=0 wallPoints_1=0

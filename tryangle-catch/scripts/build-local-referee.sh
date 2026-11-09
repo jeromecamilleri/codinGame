@@ -3,14 +3,11 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 REFEREE="$ROOT/vendor/TryAngle-Catch"
-MAVEN="$ROOT/.tools/apache-maven-3.9.11/bin/mvn"
+source "$ROOT/../common/env.sh"
 
-if [[ ! -x "$MAVEN" ]]; then
-  echo "Local Maven is missing: $MAVEN" >&2
-  exit 1
-fi
+[[ -x "$MVN" ]] || "$COMMON_DIR/setup-tools.sh"
 
-"$MAVEN" -q -o -f "$REFEREE/pom.xml" compile dependency:copy-dependencies \
+"$MVN" -q -o -f "$REFEREE/pom.xml" compile dependency:copy-dependencies \
   -DincludeScope=runtime \
   -DoutputDirectory="$REFEREE/target/dependency"
 
