@@ -1,0 +1,81 @@
+game 918756754
+options: seed=-326129056238892200
+    units=0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,1_1,0_0,0_0,0_0,1_1,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,1_1,0_0,0_0,0_0,0_0,0
+    edges=0,11_0,16_0,26_0,39_1,10_1,17_1,27_1,38_2,30_2,37_3,31_3,36_4,8_4,12_4,15_4,20_4,40_5,9_5,13_5,14_5,21_5,41_6,8_6,16_6,26_6,28_6,34_7,9_7,17_7,27_7,29_7,35_8,15_8,28_8,32_9,14_9,29_9,33_10,19_10,27_10,34_10,38_11,18_11,26_11,35_11,39_12,15_12,23_12,24_12,40_13,14_13,22_13,25_13,41_14,18_14,22_14,35_15,19_15,23_15,34_16,28_16,39_17,29_17,38_18,22_18,35_18,39_19,23_19,34_19,38_20,24_20,32_20,36_20,40_21,25_21,33_21,37_21,41_22,39_23,38_24,40_25,41_26,27_26,34_27,35_28,31_29,30_30,33_30,37_31,32_31,36_32,36_33,37
+    nodes=999,160_920,799_144,820_1775,139_1600,655_319,304_1271,347_648,612_1501,394_418,565_1070,626_849,333_1524,846_395,113_517,303_1402,656_1223,100_696,859_702,176_1217,783_1791,535_128,424_562,119_1357,840_1808,849_111,110_1014,364_905,595_1448,204_471,755_289,837_1630,122_1703,387_216,572_1240,552_679,407_1825,274_94,685_1055,868_864,91_1726,732_193,227
+agents:
+  0 jejecam (me, agent_id 6865462)
+  1 bor2 (agent_id 6848780)
+frame 0 agent -1
+frame 1 agent 0
+  stdout: MOVE 21 33 1;MOVE 37 30 1;MOVE 25 13 1
+frame 2 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 3 agent 0
+  stdout: MOVE 33 37 1;MOVE 13 5 1
+frame 4 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 5 agent 0
+  summary: $0 captured 1 triangle
+frame 6 agent 0
+  stdout: MOVE 5 9 1;SPAWN 2 30 37
+frame 7 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 8 agent 0
+  summary: $0 spawned 1 unit
+frame 9 agent 0
+  stdout: MOVE 9 33 1;MOVE 37 21 1
+frame 10 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 11 agent 0
+  summary: $0 captured 2 triangles
+frame 12 agent 0
+  stdout: MOVE 2 37 1;SPAWN 21 33 37
+frame 13 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 14 agent 0
+  summary: $0 spawned 1 unit
+frame 15 agent 0
+  stdout: MOVE 21 5 1;MOVE 33 9 1
+frame 16 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 17 agent 0
+  stdout: MOVE 5 14 1;MOVE 21 33 1;MOVE 9 7 1
+frame 18 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 19 agent 0
+  stdout: MOVE 14 9 1;MOVE 7 29 1
+frame 20 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 21 agent 0
+  stdout: MOVE 9 7 1;MOVE 29 17 1
+frame 22 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 23 agent 0
+  stdout: MOVE 7 29 1;MOVE 17 1 1
+frame 24 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 25 agent 0
+  stdout: MOVE 29 9 1;MOVE 1 10 1
+frame 26 agent 1
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+frame 27 agent 0
+frame 28 agent 1
+  summary: $0: timeout
+  summary: $1: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 3 17 1
+result
+  scores: 0=-1 1=0
+  ranking (agent indexes, winner first): 1 0
+  tooltips: frame 28: $0 timeout!

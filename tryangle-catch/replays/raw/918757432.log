@@ -1,0 +1,1012 @@
+game 918757432
+options: seed=-2437697566228896300
+    units=0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,1_1,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,1_1,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,0_0,1_1,0_0,0_0,0
+    edges=0,12_0,36_1,13_1,37_2,13_2,30_2,42_3,12_3,31_3,43_4,5_4,13_4,25_4,30_4,34_4,38_4,39_5,12_5,24_5,31_5,35_5,38_5,39_6,13_6,14_6,28_6,33_7,12_7,15_7,29_7,32_8,22_8,33_9,23_9,32_10,16_10,18_10,20_10,26_11,17_11,19_11,21_11,27_12,15_12,24_12,43_13,14_13,25_13,42_14,25_14,33_15,24_15,32_16,18_16,26_16,32_17,19_17,27_17,33_18,23_19,22_20,30_20,34_20,39_21,31_21,35_21,38_24,26_25,27_26,39_27,38_28,33_28,37_28,40_29,32_29,36_29,41_30,42_31,43_36,41_36,43_37,40_37,42
+    nodes=448,810_1471,149_1204,162_715,797_1011,407_908,552_1500,331_419,628_1825,503_94,456_396,110_1523,849_639,649_1280,310_1454,470_465,489_283,280_1636,679_192,112_1727,847_719,142_1200,817_1837,697_82,262_709,468_1210,491_636,339_1283,620_1714,198_205,761_953,95_966,864_231,594_1688,365_851,191_1068,768_306,879_1613,80_1087,620_832,339_1821,84_98,875_1326,83_593,876
+agents:
+  0 Winshersterame (me, agent_id 6841056)
+  1 jejecam (agent_id 6865462)
+frame 0 agent -1
+frame 1 agent 0
+  stdout: MOVE 3 17 1
+frame 2 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 40 28 1;MOVE 8 33 1
+frame 3 agent 0
+  stdout: MOVE 3 17 1
+frame 4 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 28 6 1;MOVE 33 14 1;MOVE 22 8 1
+frame 5 agent 0
+  stdout: MOVE 3 17 1
+frame 6 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 13 1;MOVE 14 25 1;MOVE 8 33 1
+frame 7 agent 0
+  stdout: MOVE 3 17 1
+frame 8 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 13 4 1;MOVE 33 6 1;MOVE 25 27 1
+frame 9 agent 0
+  stdout: MOVE 3 17 1
+frame 10 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 4 5 1;MOVE 27 11 1;MOVE 6 13 1
+frame 11 agent 0
+  stdout: MOVE 3 17 1
+frame 12 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 13 2 1;MOVE 5 12 1;MOVE 11 17 1
+frame 13 agent 0
+  stdout: MOVE 3 17 1
+frame 14 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 12 3 1;MOVE 17 19 1;MOVE 2 30 1
+frame 15 agent 0
+  stdout: MOVE 3 17 1
+frame 16 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 19 11 1;MOVE 3 31 1;MOVE 30 42 1
+frame 17 agent 0
+  stdout: MOVE 3 17 1
+frame 18 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 42 2 1;MOVE 11 17 1;MOVE 31 43 1
+frame 19 agent 0
+  stdout: MOVE 3 17 1
+frame 20 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 43 3 1;MOVE 2 13 1;MOVE 17 19 1
+frame 21 agent 0
+  stdout: MOVE 3 17 1
+frame 22 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 13 4 1;MOVE 19 11 1;MOVE 3 12 1
+frame 23 agent 0
+  stdout: MOVE 3 17 1
+frame 24 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 4 5 1;MOVE 12 24 1;MOVE 11 27 1
+frame 25 agent 0
+  stdout: MOVE 3 17 1
+frame 26 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 5 12 1;MOVE 24 15 1;MOVE 27 38 1
+frame 27 agent 0
+  stdout: MOVE 3 17 1
+frame 28 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 12 7 1;MOVE 15 32 1;MOVE 38 5 1
+frame 29 agent 0
+  stdout: MOVE 3 17 1
+frame 30 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 7 15 1;MOVE 5 12 1;MOVE 32 29 1
+frame 31 agent 0
+  stdout: MOVE 3 17 1
+frame 32 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 12 7 1;MOVE 15 32 1;MOVE 29 36 1
+frame 33 agent 0
+  stdout: MOVE 3 17 1
+frame 34 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 7 15 1;MOVE 32 29 1;MOVE 36 0 1
+frame 35 agent 0
+  stdout: MOVE 3 17 1
+frame 36 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 15 32 1;MOVE 29 7 1;MOVE 0 12 1
+frame 37 agent 0
+  stdout: MOVE 3 17 1
+frame 38 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 7 15 1;MOVE 12 24 1;MOVE 32 29 1
+frame 39 agent 0
+  stdout: MOVE 3 17 1
+frame 40 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 15 12 1;MOVE 24 5 1;MOVE 29 7 1
+frame 41 agent 0
+  stdout: MOVE 3 17 1
+frame 42 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 7 15 1;MOVE 12 24 1;MOVE 5 4 1
+frame 43 agent 0
+  stdout: MOVE 3 17 1
+frame 44 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 15 12 1;MOVE 24 5 1;MOVE 4 38 1
+frame 45 agent 0
+  stdout: MOVE 3 17 1
+frame 46 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 5 4 1;MOVE 12 3 1;MOVE 38 27 1
+frame 47 agent 0
+  stdout: MOVE 3 17 1
+frame 48 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 27 11 1;MOVE 4 13 1;MOVE 3 31 1
+frame 49 agent 0
+  stdout: MOVE 3 17 1
+frame 50 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 13 2 1;MOVE 11 17 1;MOVE 31 43 1
+frame 51 agent 0
+  stdout: MOVE 3 17 1
+frame 52 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 43 3 1;MOVE 17 19 1;MOVE 2 30 1
+frame 53 agent 0
+  stdout: MOVE 3 17 1
+frame 54 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 19 11 1;MOVE 3 12 1;MOVE 30 42 1
+frame 55 agent 0
+  stdout: MOVE 3 17 1
+frame 56 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 42 2 1;MOVE 12 5 1;MOVE 11 17 1
+frame 57 agent 0
+  stdout: MOVE 3 17 1
+frame 58 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 5 4 1;MOVE 2 13 1;MOVE 17 27 1
+frame 59 agent 0
+  stdout: MOVE 3 17 1
+frame 60 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 4 25 1;MOVE 13 14 1;MOVE 27 11 1
+frame 61 agent 0
+  stdout: MOVE 3 17 1
+frame 62 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 25 13 1;MOVE 14 6 1;MOVE 11 17 1
+frame 63 agent 0
+  stdout: MOVE 3 17 1
+frame 64 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 13 14 1;MOVE 6 33 1;MOVE 17 19 1
+frame 65 agent 0
+  stdout: MOVE 3 17 1
+frame 66 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 33 28 1;MOVE 19 11 1
+frame 67 agent 0
+  stdout: MOVE 3 17 1
+frame 68 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 69 agent 0
+  stdout: MOVE 3 17 1
+frame 70 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 71 agent 0
+  stdout: MOVE 3 17 1
+frame 72 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 73 agent 0
+  stdout: MOVE 3 17 1
+frame 74 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 75 agent 0
+  stdout: MOVE 3 17 1
+frame 76 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 77 agent 0
+  stdout: MOVE 3 17 1
+frame 78 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 79 agent 0
+  stdout: MOVE 3 17 1
+frame 80 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 81 agent 0
+  stdout: MOVE 3 17 1
+frame 82 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 83 agent 0
+  stdout: MOVE 3 17 1
+frame 84 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 85 agent 0
+  stdout: MOVE 3 17 1
+frame 86 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 87 agent 0
+  stdout: MOVE 3 17 1
+frame 88 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 89 agent 0
+  stdout: MOVE 3 17 1
+frame 90 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 91 agent 0
+  stdout: MOVE 3 17 1
+frame 92 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 93 agent 0
+  stdout: MOVE 3 17 1
+frame 94 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 95 agent 0
+  stdout: MOVE 3 17 1
+frame 96 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 97 agent 0
+  stdout: MOVE 3 17 1
+frame 98 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 99 agent 0
+  stdout: MOVE 3 17 1
+frame 100 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 101 agent 0
+  stdout: MOVE 3 17 1
+frame 102 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 103 agent 0
+  stdout: MOVE 3 17 1
+frame 104 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 105 agent 0
+  stdout: MOVE 3 17 1
+frame 106 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 107 agent 0
+  stdout: MOVE 3 17 1
+frame 108 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 109 agent 0
+  stdout: MOVE 3 17 1
+frame 110 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 111 agent 0
+  stdout: MOVE 3 17 1
+frame 112 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 113 agent 0
+  stdout: MOVE 3 17 1
+frame 114 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 115 agent 0
+  stdout: MOVE 3 17 1
+frame 116 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 117 agent 0
+  stdout: MOVE 3 17 1
+frame 118 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 119 agent 0
+  stdout: MOVE 3 17 1
+frame 120 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 121 agent 0
+  stdout: MOVE 3 17 1
+frame 122 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 123 agent 0
+  stdout: MOVE 3 17 1
+frame 124 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 125 agent 0
+  stdout: MOVE 3 17 1
+frame 126 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 127 agent 0
+  stdout: MOVE 3 17 1
+frame 128 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 129 agent 0
+  stdout: MOVE 3 17 1
+frame 130 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 131 agent 0
+  stdout: MOVE 3 17 1
+frame 132 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 133 agent 0
+  stdout: MOVE 3 17 1
+frame 134 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 135 agent 0
+  stdout: MOVE 3 17 1
+frame 136 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 137 agent 0
+  stdout: MOVE 3 17 1
+frame 138 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 139 agent 0
+  stdout: MOVE 3 17 1
+frame 140 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 141 agent 0
+  stdout: MOVE 3 17 1
+frame 142 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 143 agent 0
+  stdout: MOVE 3 17 1
+frame 144 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 145 agent 0
+  stdout: MOVE 3 17 1
+frame 146 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 147 agent 0
+  stdout: MOVE 3 17 1
+frame 148 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 149 agent 0
+  stdout: MOVE 3 17 1
+frame 150 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 151 agent 0
+  stdout: MOVE 3 17 1
+frame 152 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 153 agent 0
+  stdout: MOVE 3 17 1
+frame 154 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 155 agent 0
+  stdout: MOVE 3 17 1
+frame 156 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 157 agent 0
+  stdout: MOVE 3 17 1
+frame 158 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 159 agent 0
+  stdout: MOVE 3 17 1
+frame 160 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 161 agent 0
+  stdout: MOVE 3 17 1
+frame 162 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 163 agent 0
+  stdout: MOVE 3 17 1
+frame 164 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 165 agent 0
+  stdout: MOVE 3 17 1
+frame 166 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 167 agent 0
+  stdout: MOVE 3 17 1
+frame 168 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 169 agent 0
+  stdout: MOVE 3 17 1
+frame 170 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 171 agent 0
+  stdout: MOVE 3 17 1
+frame 172 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 173 agent 0
+  stdout: MOVE 3 17 1
+frame 174 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 175 agent 0
+  stdout: MOVE 3 17 1
+frame 176 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 177 agent 0
+  stdout: MOVE 3 17 1
+frame 178 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 179 agent 0
+  stdout: MOVE 3 17 1
+frame 180 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 181 agent 0
+  stdout: MOVE 3 17 1
+frame 182 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 183 agent 0
+  stdout: MOVE 3 17 1
+frame 184 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 185 agent 0
+  stdout: MOVE 3 17 1
+frame 186 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 187 agent 0
+  stdout: MOVE 3 17 1
+frame 188 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 189 agent 0
+  stdout: MOVE 3 17 1
+frame 190 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 191 agent 0
+  stdout: MOVE 3 17 1
+frame 192 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 193 agent 0
+  stdout: MOVE 3 17 1
+frame 194 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 195 agent 0
+  stdout: MOVE 3 17 1
+frame 196 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 197 agent 0
+  stdout: MOVE 3 17 1
+frame 198 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 199 agent 0
+  stdout: MOVE 3 17 1
+frame 200 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 201 agent 0
+  stdout: MOVE 3 17 1
+frame 202 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 203 agent 0
+  stdout: MOVE 3 17 1
+frame 204 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 205 agent 0
+  stdout: MOVE 3 17 1
+frame 206 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 207 agent 0
+  stdout: MOVE 3 17 1
+frame 208 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 209 agent 0
+  stdout: MOVE 3 17 1
+frame 210 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 211 agent 0
+  stdout: MOVE 3 17 1
+frame 212 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 213 agent 0
+  stdout: MOVE 3 17 1
+frame 214 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 215 agent 0
+  stdout: MOVE 3 17 1
+frame 216 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 217 agent 0
+  stdout: MOVE 3 17 1
+frame 218 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 219 agent 0
+  stdout: MOVE 3 17 1
+frame 220 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 221 agent 0
+  stdout: MOVE 3 17 1
+frame 222 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 223 agent 0
+  stdout: MOVE 3 17 1
+frame 224 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 225 agent 0
+  stdout: MOVE 3 17 1
+frame 226 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 227 agent 0
+  stdout: MOVE 3 17 1
+frame 228 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 229 agent 0
+  stdout: MOVE 3 17 1
+frame 230 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 231 agent 0
+  stdout: MOVE 3 17 1
+frame 232 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 233 agent 0
+  stdout: MOVE 3 17 1
+frame 234 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 235 agent 0
+  stdout: MOVE 3 17 1
+frame 236 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 237 agent 0
+  stdout: MOVE 3 17 1
+frame 238 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 239 agent 0
+  stdout: MOVE 3 17 1
+frame 240 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 241 agent 0
+  stdout: MOVE 3 17 1
+frame 242 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 243 agent 0
+  stdout: MOVE 3 17 1
+frame 244 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 245 agent 0
+  stdout: MOVE 3 17 1
+frame 246 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 247 agent 0
+  stdout: MOVE 3 17 1
+frame 248 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 249 agent 0
+  stdout: MOVE 3 17 1
+frame 250 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 251 agent 0
+  stdout: MOVE 3 17 1
+frame 252 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 253 agent 0
+  stdout: MOVE 3 17 1
+frame 254 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 255 agent 0
+  stdout: MOVE 3 17 1
+frame 256 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 257 agent 0
+  stdout: MOVE 3 17 1
+frame 258 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 259 agent 0
+  stdout: MOVE 3 17 1
+frame 260 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 261 agent 0
+  stdout: MOVE 3 17 1
+frame 262 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 263 agent 0
+  stdout: MOVE 3 17 1
+frame 264 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 265 agent 0
+  stdout: MOVE 3 17 1
+frame 266 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 267 agent 0
+  stdout: MOVE 3 17 1
+frame 268 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 269 agent 0
+  stdout: MOVE 3 17 1
+frame 270 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 271 agent 0
+  stdout: MOVE 3 17 1
+frame 272 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 273 agent 0
+  stdout: MOVE 3 17 1
+frame 274 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 275 agent 0
+  stdout: MOVE 3 17 1
+frame 276 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 277 agent 0
+  stdout: MOVE 3 17 1
+frame 278 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 279 agent 0
+  stdout: MOVE 3 17 1
+frame 280 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 281 agent 0
+  stdout: MOVE 3 17 1
+frame 282 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 283 agent 0
+  stdout: MOVE 3 17 1
+frame 284 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 285 agent 0
+  stdout: MOVE 3 17 1
+frame 286 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 287 agent 0
+  stdout: MOVE 3 17 1
+frame 288 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 289 agent 0
+  stdout: MOVE 3 17 1
+frame 290 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 291 agent 0
+  stdout: MOVE 3 17 1
+frame 292 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 293 agent 0
+  stdout: MOVE 3 17 1
+frame 294 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 295 agent 0
+  stdout: MOVE 3 17 1
+frame 296 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 297 agent 0
+  stdout: MOVE 3 17 1
+frame 298 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 299 agent 0
+  stdout: MOVE 3 17 1
+frame 300 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 301 agent 0
+  stdout: MOVE 3 17 1
+frame 302 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 303 agent 0
+  stdout: MOVE 3 17 1
+frame 304 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 305 agent 0
+  stdout: MOVE 3 17 1
+frame 306 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 307 agent 0
+  stdout: MOVE 3 17 1
+frame 308 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 309 agent 0
+  stdout: MOVE 3 17 1
+frame 310 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 311 agent 0
+  stdout: MOVE 3 17 1
+frame 312 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 313 agent 0
+  stdout: MOVE 3 17 1
+frame 314 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 315 agent 0
+  stdout: MOVE 3 17 1
+frame 316 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 317 agent 0
+  stdout: MOVE 3 17 1
+frame 318 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 319 agent 0
+  stdout: MOVE 3 17 1
+frame 320 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 321 agent 0
+  stdout: MOVE 3 17 1
+frame 322 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 323 agent 0
+  stdout: MOVE 3 17 1
+frame 324 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 325 agent 0
+  stdout: MOVE 3 17 1
+frame 326 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 327 agent 0
+  stdout: MOVE 3 17 1
+frame 328 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 329 agent 0
+  stdout: MOVE 3 17 1
+frame 330 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 331 agent 0
+  stdout: MOVE 3 17 1
+frame 332 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 333 agent 0
+  stdout: MOVE 3 17 1
+frame 334 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 335 agent 0
+  stdout: MOVE 3 17 1
+frame 336 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 337 agent 0
+  stdout: MOVE 3 17 1
+frame 338 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 339 agent 0
+  stdout: MOVE 3 17 1
+frame 340 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 341 agent 0
+  stdout: MOVE 3 17 1
+frame 342 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 343 agent 0
+  stdout: MOVE 3 17 1
+frame 344 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 345 agent 0
+  stdout: MOVE 3 17 1
+frame 346 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 347 agent 0
+  stdout: MOVE 3 17 1
+frame 348 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 349 agent 0
+  stdout: MOVE 3 17 1
+frame 350 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 351 agent 0
+  stdout: MOVE 3 17 1
+frame 352 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 353 agent 0
+  stdout: MOVE 3 17 1
+frame 354 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 355 agent 0
+  stdout: MOVE 3 17 1
+frame 356 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 357 agent 0
+  stdout: MOVE 3 17 1
+frame 358 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 359 agent 0
+  stdout: MOVE 3 17 1
+frame 360 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 361 agent 0
+  stdout: MOVE 3 17 1
+frame 362 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 363 agent 0
+  stdout: MOVE 3 17 1
+frame 364 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 365 agent 0
+  stdout: MOVE 3 17 1
+frame 366 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 367 agent 0
+  stdout: MOVE 3 17 1
+frame 368 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 369 agent 0
+  stdout: MOVE 3 17 1
+frame 370 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 371 agent 0
+  stdout: MOVE 3 17 1
+frame 372 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 373 agent 0
+  stdout: MOVE 3 17 1
+frame 374 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 375 agent 0
+  stdout: MOVE 3 17 1
+frame 376 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 377 agent 0
+  stdout: MOVE 3 17 1
+frame 378 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 379 agent 0
+  stdout: MOVE 3 17 1
+frame 380 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 381 agent 0
+  stdout: MOVE 3 17 1
+frame 382 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 383 agent 0
+  stdout: MOVE 3 17 1
+frame 384 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 385 agent 0
+  stdout: MOVE 3 17 1
+frame 386 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 387 agent 0
+  stdout: MOVE 3 17 1
+frame 388 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 389 agent 0
+  stdout: MOVE 3 17 1
+frame 390 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 391 agent 0
+  stdout: MOVE 3 17 1
+frame 392 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 393 agent 0
+  stdout: MOVE 3 17 1
+frame 394 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+frame 395 agent 0
+  stdout: MOVE 3 17 1
+frame 396 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 14 6 1;MOVE 19 11 1;MOVE 40 28 1
+frame 397 agent 0
+  stdout: MOVE 3 17 1
+frame 398 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 6 33 1;MOVE 11 17 1;MOVE 28 37 1
+frame 399 agent 0
+  stdout: MOVE 3 17 1
+frame 400 agent 1
+  summary: $0: Task can't be applied: MOVE 3 17 1
+  stdout: MOVE 33 14 1;MOVE 17 19 1;MOVE 37 40 1
+result
+  scores: 0=0 1=0
+  ranking (agent indexes, winner first): 0 1
