@@ -40,3 +40,10 @@ Dossier : cellularenaWinterChallenge2024/
    - archivé : 5736695_919124769 (défaite 16-17), 6047938_919124815 (victoire 16-9)
 
 Voir aussi : ../README.md (outils partagés), ../tryangle-catch/readme.txt
+
+ALGORITHMES A MAITRISER (analyse du jeu)
+  - Jeu à deux joueurs sur grille, une action par organisme et par tour, 50 ms/tour.
+  - Grille et BFS / plus courts chemins : atteindre les sources de protéines, gérer les murs et les organes.
+  - Gestion de ressources (stock A/B/C/D, coûts des organes) : planification gloutonne, file de priorités des objectifs.
+  - Arbre d'organes (parent/enfant, racines) : propagation de la mort, expansion vers des cases libres.
+  - Contrôle de l'espace et jeu tactique (tentacules, sporers) : évaluation heuristique, simulation à faible profondeur, minimax / beam search / Monte-Carlo possibles.

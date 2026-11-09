@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr"><meta charset="utf-8"><title>La résistance - visualiseur local</title>
+<style>
+body{font:14px sans-serif;background:#262c36;color:#eee;margin:20px}
+textarea{width:48%;height:160px;background:#1b1f27;color:#fff;border:1px solid #555;font:13px monospace}
+button{background:#f2bb13;border:0;padding:8px 14px;font-weight:bold;cursor:pointer}
+.row{display:flex;flex-wrap:wrap;margin:3px 0;font:12px monospace}
+.w{border:1px solid #f2bb13;margin-right:3px;padding:2px 4px;border-radius:3px;background:#1b1f27}
+.w b{color:#f2bb13}.dp{overflow-x:auto;white-space:nowrap}
+.cell{display:inline-block;width:22px;text-align:center;margin:1px;background:#1b1f27}
+.cell.z{color:#666}.cell.on{background:#2e7d32}
+h2{color:#f2bb13}
+</style>
+<h1>La résistance — visualiseur local</h1>
+<p>Entrée au format du jeu (séquence Morse, N, puis N mots). Affiche le nombre R de messages, le tableau de comptage et les premiers découpages.</p>
+<textarea id="inp">......-...-..---.-----.-..-..-..
+5
+HELL
+HELLO
+OWORLD
+WORLD
+TEST</textarea>
+<button onclick="go()">Calculer</button> max affichés : <input id="max" value="30" size="3">
+<h2>Résultat R = <span id="r">?</span></h2>
+<h2>f[i] : façons d'écrire le préfixe de longueur i</h2><div class="dp" id="dp"></div>
+<h2>Messages (découpages mot par mot)</h2><div id="msgs"></div>
+<script>
+const M=".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..".split(" ");
+const enc=w=>[...w].map(c=>M[c.charCodeAt(0)-65]).join("");
+function go(){
+  const L=document.getElementById("inp").value.split("\n").map(s=>s.trim()).filter(s=>s);
+  const s=L[0],n=+L[1],words=L.slice(2,2+n),max=+document.getElementById("max").value;
+  const byMorse={};words.forEach(w=>(byMorse[enc(w)]??=[]).push(w));
+  const lens=[...new Set(Object.keys(byMorse).map(k=>k.length))];
+  const f=Array(s.length+1).fill(0n);f[0]=1n;
+  for(let i=0;i<s.length;i++)if(f[i])for(const k of lens){const ws=byMorse[s.substr(i,k)];if(ws&&i+k<=s.length)f[i+k]+=f[i]*BigInt(ws.length)}
+  document.getElementById("r").textContent=f[s.length];
+  document.getElementById("dp").innerHTML=[...s].map((c,i)=>`<span class="cell ${f[i]?'on':'z'}" title="i=${i}">${c}<br>${f[i]}</span>`).join("")+`<span class="cell ${f[s.length]?'on':'z'}">·<br>${f[s.length]}</span>`;
+  const out=[];
+  (function rec(i,acc){if(out.length>=max)return;if(i==s.length){out.push(acc.slice());return}
+    for(const k of lens){const ws=byMorse[s.substr(i,k)];if(ws&&i+k<=s.length)for(const w of ws){acc.push([w,s.substr(i,k)]);rec(i+k,acc);acc.pop()}}})(0,[]);
+  document.getElementById("msgs").innerHTML=out.map(m=>`<div class="row">${m.map(([w,c])=>`<span class="w"><b>${w}</b><br>${c}</span>`).join("")}</div>`).join("")||"Aucun message possible";
+}
+go();
+</script>

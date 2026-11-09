@@ -38,3 +38,10 @@ Le score est celui du referee ("points"). Le comparer d'une version à l'autre s
    python3 ../common/cg_api.py puzzle selenia-city --out .
 
 Voir aussi : ../README.md (outils partagés), ../tryangle-catch/readme.txt, ../cellularenaWinterChallenge2024/readme.txt
+
+ALGORITHMES A MAITRISER (analyse du jeu)
+  - Optimisation solo (score à maximiser, 500 ms/tour) sur un plan 2D : réseau de tubes et téléporteurs entre bâtiments.
+  - Géométrie : intersections de segments, distance point-segment, non-croisement des tubes et des bâtiments.
+  - Graphes pondérés : arbre couvrant minimal (Kruskal/Prim), plus courts chemins (Dijkstra), flot/affectation des voyageurs aux types de modules.
+  - Budget de ressources : sac à dos / glouton sur le rapport gain/coût ; recherche locale, recuit simulé ou beam search pour améliorer une solution de base.
+  - Simulation du flux mensuel de voyageurs pour évaluer un plan avant de l'envoyer.

@@ -46,3 +46,9 @@ Tout se lance depuis ce dossier (tryangle-catch/).
 Bots : bot_simple.py, bot.py, bot_v3_capture_spawn.py, bot_v4_capture_spawn.py,
        bot_v5_no_reversal.py, bot_v6_cycle_guard.py   (historique : BOT_HISTORY.md)
 Voir aussi : LOCAL.md, docs/CONTEXTE_AGENT_CODINGAME.md, ../README.md
+
+ALGORITHMES A MAITRISER (analyse du jeu)
+  - Jeu à deux joueurs sur graphe planaire, tour simultané, 50 ms/tour : heuristiques et évaluation, pas de recherche exhaustive.
+  - Théorie des graphes : voisinage, détection des triangles (3-cliques sans maison à l'intérieur), arêtes qui ne se croisent pas (géométrie : intersection de segments).
+  - Plus courts chemins / BFS pour déplacer et regrouper les unités ; contrôle de zone (possession d'une maison = majorité d'unités).
+  - Planification gloutonne par score (capture, spawn, attaque), anti-oscillation (garde-fou contre les allers-retours), éventuellement simulation courte (1-2 tours) ou Monte-Carlo / beam search.
